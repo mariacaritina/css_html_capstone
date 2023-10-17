@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Website</title>
+    <link rel="stylesheet" href="coffee_shop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="container"> 
+        <div class="home">Home</div>
+        <div class="menu">Menu</div>
+        <div class="locations">Locations</div>
+        <div class="about">About</div>
+        <div class="order">Order Now!</div>
+    </nav>
+    
+<img src="https://t4.ftcdn.net/jpg/01/36/72/35/360_F_136723508_DEDtVanueqBnI8s2Bs3yuT6eThvUsq7w.jpg"
+alt="cup of coffee beans spilling out">
+
+<h2>Order Here!</h2>
+
+<form class="name">
+    <label for="fname">Full name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+</form>
+
+<form class="email"> 
+    <label for="lemail">Email Address:</label><br>
+    <input type="text" id="lemail" name="lemail">
+  </form>
+  
+<p>We'll never share your email with anyone else.</p>  
+
+<div class="choices"> 
+    <div class="poison"><h3>What's your poison?</h3>
+        <form class="coffees">
+            <input type="checkbox" id="coffee" name="coffee" value="Coffee">
+            <label for="coffee">Coffee</label><br>
+            <input type="checkbox" id="tea" name="tea" value="tea">
+            <label for="vehicle2">Black Tea</label><br>
+            <input type="checkbox" id="americano" name="americano" value="americano">
+            <label for="americano">Americano</label><br>
+            <input type="checkbox" id="latte" name="latte" value="lattee">
+            <label for="latte">Latte</label><br>
+            <input type="checkbox" id="mocha" name="mocha" value="mocha">
+            <label for="mocha">Mocha</label><br>
+          </form> 
+    </div>
+
+    <div class="shots"><h3>Any shots?</h3>
+    <form class="coffees">
+        <input type="checkbox" id="espresso" name="espresso"  value="espresso" >
+        <label for="coffee">Espresso</label><br>
+        <input type="checkbox" id="carmel" name="carmel" value="carmel">
+        <label for="carmel">Carmel</label><br>
+        <input type="checkbox" id="hazelnut" name="hazelnut" value="hazelnut">
+        <label for="hazelnut">Hazelnut</label><br>
+      </form> 
+    </div>   
+
+    <div class="milk"><h3>Any Milk?</h3>
+        <form class="coffees">
+            <input type="checkbox" id="cow" name="cow" value="cow">
+            <label for="cow">Whole Cow Milk</label><br>
+            <input type="checkbox" id="goat" name="goat" value="goat">
+            <label for="goat">Goat Milk</label><br>
+            <input type="checkbox" id="2centcow" name="2centcow" value="2centcow">
+            <label for="2centcow">2% Cow Milk</label><br>
+            <input type="checkbox" id="none" name="none" value="none">
+            <label for="none">No Milk</label><br>
+            <input type="checkbox" id="soy" name="soy" value="soy">
+            <label for="soy">Soy Milk</label><br>
+          </form> 
+    </div>
+</div>
+
+<h2>Any Notes?</h2>
+
+<form class="notes">
+    <div class="box"> 
+    <label for="fname"></label><br>
+    <input type="text" id="fname" name="fname"><br>
+    </div>
+    <input class="button" type="submit" value="Submit">
+</form>
+</body>
+</html>
